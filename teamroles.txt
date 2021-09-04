@@ -1,0 +1,33 @@
+Team Lead:  
+(Team leader, project organizer and specializes in development timeline planning)
+- Jaiden 
+
+DevOps:  
+(Helps translate the solution engineer's designs into the Front-End/Back-End code, keeps the code on track to meet design expectations)
+- Tallon 
+
+Solutions Engineers:  
+(Designs the application on a high level which includes UI design, planning use case scenerios, developing system feature requirements 
+and planning which user base will be targeted by this appliation) 
+- Jaiden 
+- Ian 
+- Nicholas 
+- Tallon 
+
+Quality Assurance Engineers:
+(Slayer of bugs, documents problematic use cases in Bug Logs for fixing)
+- Jaiden 
+- Nicholas 
+- Ian 
+
+Front-End Devs: 
+(Develops front facing systems and interactive features that users directly interface with) 
+- Tallon 
+- Nicholas 
+
+Back-End Devs:  
+(Develops back facing systems that act as the application's framework, also works on the application's network facing features/frameworks)
+- Ian 
+- Jaiden 
+
+
