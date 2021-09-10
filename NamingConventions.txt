@@ -1,0 +1,14 @@
+Coding Conventions:
+
+Variable Names- camelCase
+Class Names- ExampleClass
+Package Names- big.functional.*insert*
+Constant Names- CONSTANT_NAME
+Textures/Non-coding File Names- bfSwordTexture, bfDocModules, etc
+
+example:
+
+func camelFunction(String camelCase)
+{
+  ......
+}
