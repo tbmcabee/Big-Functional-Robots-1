@@ -2,13 +2,13 @@ Coding Conventions:
 
 Variable Names- camelCase
 Class Names- ExampleClass
-Package Names- big.functional.*insert*
+Package Names- com.bfr.robots.[NAME]
 Constant Names- CONSTANT_NAME
 Textures/Non-coding File Names- bfSwordTexture, bfDocModules, etc
 
 Current Version = 0.1
 MOD_ID = robots
-GROUP = com.bf.robots
+GROUP = com.bfr.robots
 
 example:
 
