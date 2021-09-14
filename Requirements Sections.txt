@@ -1,0 +1,25 @@
+Section 1:
+Jaiden
+
+Section 2:
+Ian
+
+Section 3:
+Tallon
+
+Section 4:
+Tallon/Nicholas
+
+Section 5:
+Ian/Jaiden
+
+Section 6:
+Tallon
+
+Section 7:
+Nicholas
+
+Jaiden: Sections 1, 5
+Tallon: Sections 3, 4, 6
+Ian: Sections 2, 5
+Nicholas: Sections 4, 7

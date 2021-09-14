@@ -1,0 +1,42 @@
+[14Sep2021 16:12:27.329] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.17, --assetsDir, C:\Users\jaidenm\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 37.0.44, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
+[14Sep2021 16:12:27.354] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 16.0.2 by Oracle Corporation
+[14Sep2021 16:12:36.505] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\jaidenm\.gradle\caches\forge_gradle\assets, --assetIndex, 1.17]
+[16:13:12] [Render thread/WARN]: Assets URL 'union:/C:/Users/jaidenm/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.44_mapped_official_1.17.1/forge-1.17.1-37.0.44_mapped_official_1.17.1-recomp.jar%2374!/assets/.mcassetsroot' uses unexpected schema
+[16:13:12] [Render thread/WARN]: Assets URL 'union:/C:/Users/jaidenm/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.44_mapped_official_1.17.1/forge-1.17.1-37.0.44_mapped_official_1.17.1-recomp.jar%2374!/data/.mcassetsroot' uses unexpected schema
+[14Sep2021 16:13:12.299] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesH[16:13:13] [Render thread/WARN]: Assets URL 'union:/C:/Users/jaidenm/.gradle/caches/forge_gradle/minecraft[16:13:13] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[16:13:20] [modloading-worker-2/INFO]: Forge mod loading, version 37.0.44, for MC 1.17.1 with MCP 20210706.113038
+[16:13:20] [modloading-worker-2/INFO]: MinecraftForge v37.0.44 Initialized
+[14Sep2021 16:13:31.129] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[16:13:33] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
+[14Sep2021 16:13:36.013] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Sep2021 16:13:39.139] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 37.0.44 Target: 37.0.59
+[16:14:34] [Render thread/INFO]: OpenAL initialized.
+[16:14:34] [Render thread/INFO]: Sound engine started
+[16:14:36] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[16:14:37] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[16:14:37] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16:14:37] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16:14:37] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16:14:37] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16:14:37] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16:14:44] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[16:14:44] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16:14:44] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16:14:44] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[16:16:08] [Render thread/INFO]: Stopping!
+-37.0.44_mapped_official_1.17.1-recomp.jar%2374!:?]
+	at net.minecraft.client.Minecraft.destroy(Minecraft.java:951) ~[forge-1.17.1-37.0.44_mapped_official_1.17.1-recomp.jar%2374!:?]
+	at net.minecraft.client.main.Main.main(Main.java:202) ~[forge-1.17.1-37.0.44_mapped_official_1.17.1-recomp.jar%2374!:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:38) ~[fmlloader-1.17.1-37.0.44.jar%233!:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.0.7.jar%238!:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.0.7.jar%238!:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.0.7.jar%238!:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.0.7.jar%238!:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.0.7.jar%238!:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.0.7.jar%238!:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.0.7.jar%238!:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:90) [bootstraplauncher-0.1.17.jar:?]
