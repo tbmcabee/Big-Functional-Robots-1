@@ -1,0 +1,18 @@
+Coding Conventions:
+
+Variable Names- camelCase
+Class Names- ExampleClass
+Package Names- big.functional.*insert*
+Constant Names- CONSTANT_NAME
+Textures/Non-coding File Names- bfSwordTexture, bfDocModules, etc
+
+Current Version = 0.1
+MOD_ID = robots
+GROUP = com.bf.robots
+
+example:
+
+func camelFunction(String camelCase)
+{
+  ......
+}
