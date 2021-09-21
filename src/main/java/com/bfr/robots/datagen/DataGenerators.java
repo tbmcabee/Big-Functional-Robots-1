@@ -1,4 +1,4 @@
-package com.bfr.datagen;
+package com.bfr.robots.datagen;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
