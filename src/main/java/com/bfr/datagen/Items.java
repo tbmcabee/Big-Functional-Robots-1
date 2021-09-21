@@ -23,7 +23,7 @@ public class Items extends ItemModelProvider
 		singleTexture(OreItem.ORE_INGOT.get().getRegistryName().getPath(),
 				new ResourceLocation("item/handheld"),
 				"layer0",
-				new ResourceLocation(Robots.MOD_ID, "item/oreitem"));
+				new ResourceLocation(Robots.MOD_ID, "item/bforeitem"));
 	}
 	
 
