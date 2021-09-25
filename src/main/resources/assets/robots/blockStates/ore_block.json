@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "robots:block/ore_block" }
+    }
+}

@@ -15,7 +15,7 @@ import setup.Registration;
 public class BlockOre
 {
 	public static final RegistryObject<Block> ORE_BLOCK = registerBlock("ore_block", 
-			() -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.TERRACOTTA_LIGHT_GRAY).strength(1.0f, 1.0f).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+			() -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.TERRACOTTA_LIGHT_GRAY).strength(1.0f, 1.0f).sound(SoundType.STONE)));
 	
 	private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
 	{
