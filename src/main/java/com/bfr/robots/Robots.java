@@ -40,6 +40,6 @@ public class Robots
 
     private void setup(final FMLCommonSetupEvent event)
     {
-
+    	
     }
 }
