@@ -1,8 +1,8 @@
-package setup;
+package com.bfr.robots.setup;
 
 import com.bfr.blocks.BlockOre;
-import com.bfr.items.OreItem;
-import com.bfr.robots.Robots;
+import com.bfr.robots.items.OreItem;
+import com.bfr.robots.robot.Robots;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
