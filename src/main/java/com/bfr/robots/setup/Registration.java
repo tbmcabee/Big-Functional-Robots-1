@@ -1,5 +1,6 @@
 package com.bfr.robots.setup;
 
+import com.bfr.blocks.BlockOre;
 import com.bfr.robots.items.OreItem;
 import com.bfr.robots.robot.Robots;
 
@@ -23,6 +24,7 @@ public class Registration
 		BLOCKS.register(modEventBus);
 		
 		OreItem.register();
+		BlockOre.register();
 	}
 	
 }
