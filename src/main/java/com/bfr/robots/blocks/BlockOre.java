@@ -1,4 +1,4 @@
-package com.bfr.blocks;
+package com.bfr.robots.blocks;
 
 import java.util.function.Supplier;
 

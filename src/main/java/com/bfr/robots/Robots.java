@@ -12,12 +12,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fmlserverevents.FMLServerStartingEvent;
+
+import com.bfr.robots.blocks.BlockOre;
 import com.bfr.robots.setup.Registration;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import com.bfr.blocks.BlockOre;
 
 import java.util.stream.Collectors;
 

@@ -1,6 +1,6 @@
 package com.bfr.robots.setup;
 
-import com.bfr.blocks.BlockOre;
+import com.bfr.robots.blocks.BlockOre;
 import com.bfr.robots.items.OreItem;
 import com.bfr.robots.robot.Robots;
 
