@@ -14,8 +14,6 @@ public class BFRFeatures {
 	public static void addOres(BiomeGenerationSettings.Builder builder, Biome.BiomeCategory biomeCategory) {
         int stageOre = GenerationStep.Decoration.UNDERGROUND_ORES.ordinal();
         
-        
-        
         builder.addFeature(stageOre, () -> BFRConfiguredFeatures.ORE_BLOCK);
     }
 }
