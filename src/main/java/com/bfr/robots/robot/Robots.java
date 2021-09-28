@@ -1,4 +1,4 @@
-package com.bfr.robots;
+package com.bfr.robots.robot;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -12,7 +12,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fmlserverevents.FMLServerStartingEvent;
-import setup.Registration;
+
+import com.bfr.robots.blocks.BlockOre;
+import com.bfr.robots.setup.Registration;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -40,6 +42,6 @@ public class Robots
 
     private void setup(final FMLCommonSetupEvent event)
     {
-
+    	
     }
 }
