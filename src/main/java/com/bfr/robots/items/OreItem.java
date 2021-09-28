@@ -1,8 +1,9 @@
-package com.bfr.items;
+package com.bfr.robots.items;
+
+import com.bfr.robots.setup.Registration;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.fmllegacy.RegistryObject;
-import setup.Registration;
 
 public class OreItem extends Item 
 {

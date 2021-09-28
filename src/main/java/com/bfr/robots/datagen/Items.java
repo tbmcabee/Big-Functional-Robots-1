@@ -1,13 +1,13 @@
-package com.bfr.datagen;
+package com.bfr.robots.datagen;
 
-import com.bfr.items.OreItem;
-import com.bfr.robots.Robots;
+import com.bfr.robots.items.OreItem;
+import com.bfr.robots.robot.Robots;
+import com.bfr.robots.setup.Registration;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import setup.Registration;
 
 public class Items extends ItemModelProvider 
 {
