@@ -19,18 +19,23 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+//net/minecraft/world/item/CreativeModeTab
+
+import net.minecraft.world.inventory.*;
+
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Robots.MOD_ID)
 public class Robots
 {
-	public final static String MOD_ID = "robots"; //MOD_ID constant value to be used for MOD_ID contexts
+	public final static String MOD_ID = "robots"; //MOD_ID constant value to be used for MOD_ID contexts and any items that are logically connected to the MOD application 
     
-    private static final Logger LOGGER = LogManager.getLogger(); // Directly reference a log4j logger.
+    private static final Logger LOGGER = LogManager.getLogger(); // Directly reference a log4j logger named LOGGER.
     
     public Robots() 
     {
+    	// This call registers custom mod items into the game engine's Event Bus
     	Registration.register();
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         // Register the setup method for modloading
