@@ -9,15 +9,20 @@ import net.minecraftforge.fml.common.Mod;
 import com.bfr.robots.robot.*;
 import com.bfr.robots.world.*;
 
+// This class loads the configured features into the biomes (Jaiden) 
 @Mod.EventBusSubscriber(modid = Robots.MOD_ID)
 public class BFRBiomeLoadingEvent 
 {
+	// addFeatures gets the biome and generates your ore/trees/whatever in if the biome matches. (We 
+	// dont have a specified biome so the ore generates no matter what.) (Jaiden)
 	@SubscribeEvent(priority = EventPriority.HIGH)	
 	public static void addFeatures(BiomeLoadingEvent event)
 	{
         Biome.BiomeCategory biomeCategory = event.getCategory();
         BiomeGenerationSettingsBuilder builder = event.getGeneration();
 
+        
+        // Refers to the addOres function in BFRFeatures class (Jaiden) 
         BFRFeatures.addOres(builder, biomeCategory);
     }
 }

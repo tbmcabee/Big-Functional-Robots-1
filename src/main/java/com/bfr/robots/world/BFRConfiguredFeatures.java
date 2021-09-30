@@ -25,16 +25,21 @@ import com.bfr.robots.setup.Registration;
 import com.bfr.robots.blocks.BlockOre;
 import com.bfr.robots.robot.*;
 
+// Anything that needs to be generated in the world will be put in this class (Jaiden)
 public class BFRConfiguredFeatures 
 {
 	
+	// Declaring a ConfiguredFeature for ORE_BLOCK. A configured feature is pretty much filling in the parameters on how the object should generate in the world. (Jaiden)
     public static final ConfiguredFeature<?, ?> ORE_BLOCK = register("ore_block", Feature.ORE.configured(new OreConfiguration(OreConfiguration.Predicates.STONE_ORE_REPLACEABLES, BlockStates.ORE_BLOCK, 9)).rangeUniform(VerticalAnchor.bottom(), VerticalAnchor.absolute(15))).squared().count(20);
 
+    // This function just registers all our configured features for the mod. (Jaiden)
     private static <FC extends FeatureConfiguration> ConfiguredFeature<FC, ?> register(String name, ConfiguredFeature<FC, ?> feature)
     {
         return Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new ResourceLocation(Robots.MOD_ID, name), feature);
     }
     
+    
+    //  Not positive what this class is for, but I'm assuming it just gets the defaultBlockState to load into the world (Jaiden)
     private static class BlockStates
     {
     	public static final BlockState ORE_BLOCK = BlockOre.ORE_BLOCK.get().defaultBlockState();
