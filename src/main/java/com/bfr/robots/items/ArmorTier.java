@@ -21,7 +21,7 @@ public enum ArmorTier implements ArmorMaterial
 {
 
 	//Sets the material for the armor items to use (Nicholas)
-	NOVA_CRYSTAL("nova_crystal", 40, new int[] { 4, 6, 8, 4 }, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.5F, 0.1F, OreItem.ORE_INGOT);
+	NOVA_CRYSTAL("NovaCrystal", 40, new int[] { 4, 6, 8, 4 }, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.5F, 0.1F, OreItem.ORE_INGOT);
 	
 	//System variables for armor items (Nicholas)
     private static final int[] HEALTH_PER_SLOT = new int[] { 13, 15, 16, 11 };

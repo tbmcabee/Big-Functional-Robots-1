@@ -10,7 +10,7 @@ import net.minecraftforge.fmllegacy.RegistryObject;
 	//2. Currently working on the texture
 	//3. Parts of this code are based on documentation from 1.16
 
-public enum ToolTier 
+public enum ToolTier implements Tier
 {
 
 	//Sets the material for the tool items to use (Nicholas)
