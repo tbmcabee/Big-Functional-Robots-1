@@ -27,13 +27,13 @@ public class ArmorItems extends Item
 	}
 	
 	//Registering each armor piece to the mod's registry (Nicholas) 
-	public static final RegistryObject<Item> NOVA_CRYSTAL_HELMET = Registration.ITEMS.register("nova_crystal_helmet", 
+	public static final RegistryObject<Item> NOVA_CRYSTAL_HELMET = Registration.ITEMS.register("NovaCrystalHelmet", 
 			() -> new ItemArmor(Armor.NOVA_CRYSTAL, EquipmentSlot.HEAD, (new Item.Properties())));
-	public static final RegistryObject<Item> NOVA_CRYSTAL_CHESTPLATE = Registration.ITEMS.register("nova_crystal_chestplate", 
+	public static final RegistryObject<Item> NOVA_CRYSTAL_CHESTPLATE = Registration.ITEMS.register("NovaCrystalChestplate", 
 			() -> new ItemArmor(Armor.NOVA_CRYSTAL, EquipmentSlot.CHEST, (new Item.Properties())));
-	public static final RegistryObject<Item> NOVA_CRYSTAL_LEGGINGS = Registration.ITEMS.register("nova_crystal_leggings", 
+	public static final RegistryObject<Item> NOVA_CRYSTAL_LEGGINGS = Registration.ITEMS.register("NovaCrystalLeggings", 
 			() -> new ItemArmor(Armor.NOVA_CRYSTAL, EquipmentSlot.LEGS, (new Item.Properties())));
-	public static final RegistryObject<Item> NOVA_CRYSTAL_BOOTS = Registration.ITEMS.register("nova_crystal_boots", 
+	public static final RegistryObject<Item> NOVA_CRYSTAL_BOOTS = Registration.ITEMS.register("NovaCrystalBoots", 
 			() -> new ItemArmor(Armor.NOVA_CRYSTAL, EquipmentSlot.FEET, (new Item.Properties())));
 	
 	//Method to be utilized to register the armor items to the event bus in the Registration class (Nicholas)
