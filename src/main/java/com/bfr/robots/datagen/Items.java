@@ -1,5 +1,6 @@
 package com.bfr.robots.datagen;
 
+import com.bfr.robots.items.ConfiguratorItem;
 import com.bfr.robots.items.OreItem;
 import com.bfr.robots.robot.Robots;
 import com.bfr.robots.setup.Registration;

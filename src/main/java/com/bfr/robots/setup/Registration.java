@@ -1,6 +1,7 @@
 package com.bfr.robots.setup;
 
 import com.bfr.robots.blocks.BlockOre;
+import com.bfr.robots.items.ConfiguratorItem;
 import com.bfr.robots.items.OreItem;
 import com.bfr.robots.robot.Robots;
 
@@ -8,7 +9,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -25,6 +25,7 @@ public class Registration
 		
 		OreItem.register();
 		BlockOre.register();
+		ConfiguratorItem.register();
 	}
 	
 }
