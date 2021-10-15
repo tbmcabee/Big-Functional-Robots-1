@@ -28,15 +28,15 @@ public class ToolItems extends Item
 	
 	//Registering each tool item to the mod's registry (Nicholas) 
     public static final RegistryObject<Item> NOVA_CRYSTAL_AXE = Registration.ITEMS.register("nova_crystal_axe",
-            () -> new AxeItem(ModToolTiers.NOVA_CRYSTAL, 5, -3.0f, (new Item.Properties())));
+            () -> new AxeItem(ToolTier.NOVA_CRYSTAL, 5, -3.0f, (new Item.Properties())));
     public static final RegistryObject<Item> NOVA_CRYSTAL_HOE = Registration.ITEMS.register("nova_crystal_hoe",
-            () -> new AxeItem(ModToolTiers.NOVA_CRYSTAL, -5, 0.0f, (new Item.Properties())));
+            () -> new HoeItem(ToolTier.NOVA_CRYSTAL, -5, 0.0f, (new Item.Properties())));
     public static final RegistryObject<Item> NOVA_CRYSTAL_PICKAXE = Registration.ITEMS.register("nova_crystal_pickaxe",
-            () -> new AxeItem(ModToolTiers.NOVA_CRYSTAL, 1, -3.0f, (new Item.Properties())));
+            () -> new PickaxeItem(ToolTier.NOVA_CRYSTAL, 1, -3.0f, (new Item.Properties())));
     public static final RegistryObject<Item> NOVA_CRYSTAL_SHOVEL = Registration.ITEMS.register("nova_crystal_shovel",
-            () -> new AxeItem(ModToolTiers.NOVA_CRYSTAL, 1, -3.0f, (new Item.Properties())));
+            () -> new ShovelItem(ToolTier.NOVA_CRYSTAL, 1, -3.0f, (new Item.Properties())));
     public static final RegistryObject<Item> NOVA_CRYSTAL_SWORD = Registration.ITEMS.register("nova_crystal_sword",
-            () -> new AxeItem(ModToolTiers.NOVA_CRYSTAL, 5, -3.0f, (new Item.Properties())));
+            () -> new SwordItem(ToolTier.NOVA_CRYSTAL, 5, -3.0f, (new Item.Properties())));
     
   //Method to be utilized to register the armor items to the event bus in the Registration class (Nicholas)
     public static void register() {}
