@@ -1,10 +1,10 @@
 package com.bfr.robots.setup;
 
 import com.bfr.robots.blocks.BlockOre;
-import com.bfr.robots.items.OreItem;
+import com.bfr.robots.items.*;
 import com.bfr.robots.robot.Robots;
 
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -35,6 +35,12 @@ public class Registration
 		//OreItem register refers back to the Ore Item class and registers the information within that class (Tallon)
 		//This handles the Ore Ingot's Item asset. 
 		OreItem.register();
+		ItemArmor.register();
+		ItemAxe.register();
+		ItemHoe.register();
+		ItemPickaxe.register();
+		ItemShovel.register();
+		ItemSword.register();
 		
 		//BlockOre register refers back to the Ore Item class and registers the information within that class (Tallon)
 		//This handles the Ore Block's Block and BlockItem assets

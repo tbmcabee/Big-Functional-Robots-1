@@ -1,16 +1,16 @@
 {
 	"item.robots.ore_ingot": "Nova Crystal",
 
-	"item.robots.NovaCrystalAxe": "Nova Crystal Axe",
-	"item.robots.NovaCrystalHoe": "Nova Crystal Hoe", 
-	"item.robots.NovaCrystalPickaxe": "Nova Crystal Pickaxe", 
-	"item.robots.NovaCrystalShovel": "Nova Crystal Shovel", 
-	"item.robots.NovaCrystalSword": "Nova Crystal Sword",
+	"item.robots.nova_crystal_axe": "Nova Crystal Axe",
+	"item.robots.nova_crystal_hoe": "Nova Crystal Hoe", 
+	"item.robots.nova_crystal_pickaxe": "Nova Crystal Pickaxe", 
+	"item.robots.nova_crystal_shovel": "Nova Crystal Shovel", 
+	"item.robots.nova_crystal_sword": "Nova Crystal Sword",
 
-	"item.robots.NovaCrystalBoots": "Nova Crystal Boots",
-	"item.robots.NovaCrystalChestplate": "Nova Crystal Chestplate", 
-	"item.robots.NovaCrystalHelmet": "Nova Crystal Helmet", 
-	"item.robots.NovaCrystalLeggins": "Nova Crystal Leggings",
+	"item.robots.nova_crystal_boots": "Nova Crystal Boots",
+	"item.robots.nova_crystal_chestplate": "Nova Crystal Chestplate", 
+	"item.robots.nova_crystal_helmet": "Nova Crystal Helmet", 
+	"item.robots.nova_crystal_leggings": "Nova Crystal Leggings",
 
 	"block.robots.ore_block": "Nova Ore Block"
 }
