@@ -1,8 +1,7 @@
 package com.bfr.robots.datagen;
 
-import com.bfr.robots.items.OreItem;
-import com.bfr.robots.robot.Robots;
-import com.bfr.robots.setup.Registration;
+import com.bfr.robots.Robots;
+import com.bfr.robots.setup.items.BFRItems;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
@@ -28,7 +27,7 @@ public class Items extends ItemModelProvider
 	//when the player is "holding" the item. (Tallon)
 	protected void registerModels()
 	{
-		singleTexture(OreItem.ORE_INGOT.get().getRegistryName().getPath(),
+		singleTexture(BFRItems.ORE_INGOT.get().getRegistryName().getPath(),
 				new ResourceLocation("item/handheld"),
 				"layer0",
 				new ResourceLocation(Robots.MOD_ID, "item/bforeitem"));

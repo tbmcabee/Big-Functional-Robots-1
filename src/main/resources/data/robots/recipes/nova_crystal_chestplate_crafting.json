@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+  
+    "pattern":
+    [
+      "# #",
+      "###",
+      "###"
+    ],
+  
+  
+    "key":
+    {
+      "#":
+      {
+        "item": "robots:NovaCrystal"
+      }
+    },
+  
+    "result":
+    {
+      "item":  "robots:NovaCrystalChestplate",
+      "count": 1
+    }
+  }

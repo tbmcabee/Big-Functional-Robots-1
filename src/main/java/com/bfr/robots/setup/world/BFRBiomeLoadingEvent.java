@@ -1,4 +1,4 @@
-package com.bfr.robots.world;
+package com.bfr.robots.setup.world;
 
 import net.minecraft.world.level.biome.Biome;
 import net.minecraftforge.common.world.BiomeGenerationSettingsBuilder;
@@ -6,8 +6,7 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import com.bfr.robots.robot.*;
-import com.bfr.robots.world.*;
+import com.bfr.robots.Robots;
 
 // This class loads the configured features into the biomes (Jaiden) 
 @Mod.EventBusSubscriber(modid = Robots.MOD_ID)

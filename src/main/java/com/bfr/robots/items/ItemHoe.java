@@ -26,9 +26,6 @@ public class ItemHoe extends HoeItem {
         this.efficiency = toolTier.getSpeed();
     }
 
-    public static final RegistryObject<Item> NOVA_CRYSTAL_HOE = Registration.ITEMS.register("nova_crystal_hoe",
-            () -> new ItemHoe(ToolTier.NOVA_CRYSTAL, 0, -3.0F, (new Item.Properties())));
-
     @Override
     public void appendHoverText(ItemStack stack, Level worldIn, List<Component> tooltip, TooltipFlag flagIn){
         super.appendHoverText(stack, worldIn, tooltip, flagIn);
@@ -41,7 +38,4 @@ public class ItemHoe extends HoeItem {
     public Item asItem() {
         return this;
     }
-
-    public static void register() {}
-
 }

@@ -28,15 +28,6 @@ public class ItemArmor extends ArmorItem {
         this.equipmentSlotType = equipmentSlotType;
     }
 
-    public static final RegistryObject<Item> NOVA_CRYSTAL_HELMET = Registration.ITEMS.register("nova_crystal_helmet", 
-			() -> new ItemArmor(ArmorTier.NOVA_CRYSTAL, EquipmentSlot.HEAD, (new Item.Properties())));
-	public static final RegistryObject<Item> NOVA_CRYSTAL_CHESTPLATE = Registration.ITEMS.register("nova_crystal_chestplate", 
-			() -> new ItemArmor(ArmorTier.NOVA_CRYSTAL, EquipmentSlot.CHEST, (new Item.Properties())));
-	public static final RegistryObject<Item> NOVA_CRYSTAL_LEGGINGS = Registration.ITEMS.register("nova_crystal_leggings", 
-			() -> new ItemArmor(ArmorTier.NOVA_CRYSTAL, EquipmentSlot.LEGS, (new Item.Properties())));
-	public static final RegistryObject<Item> NOVA_CRYSTAL_BOOTS = Registration.ITEMS.register("nova_crystal_boots", 
-			() -> new ItemArmor(ArmorTier.NOVA_CRYSTAL, EquipmentSlot.FEET, (new Item.Properties())));
-
     @Override
     public void onArmorTick(ItemStack stack, Level world, Player player) {
         Item HELMET = player.getItemBySlot(EquipmentSlot.HEAD).getItem();
@@ -55,7 +46,5 @@ public class ItemArmor extends ArmorItem {
     public net.minecraft.world.item.ArmorMaterial getMaterial() {
         return super.getMaterial();
     }
-
-    public static void register() {}
 
 }

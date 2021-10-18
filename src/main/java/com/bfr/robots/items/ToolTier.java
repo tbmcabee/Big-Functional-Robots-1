@@ -1,5 +1,7 @@
 package com.bfr.robots.items;
 
+import com.bfr.robots.setup.items.BFRItems;
+
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -14,7 +16,7 @@ public enum ToolTier implements Tier
 {
 
 	//Sets the material for the tool items to use (Nicholas)
-	NOVA_CRYSTAL(4, 3092, 14.0F, 5.0F, 15, OreItem.ORE_INGOT);
+	NOVA_CRYSTAL(4, 3092, 14.0F, 5.0F, 15, BFRItems.ORE_INGOT);
 	
 	//System variables for tool items (Nicholas)
     private final float speed, attackDamage;

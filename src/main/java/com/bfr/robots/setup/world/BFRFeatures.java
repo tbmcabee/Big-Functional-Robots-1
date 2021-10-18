@@ -1,4 +1,4 @@
-package com.bfr.robots.world;
+package com.bfr.robots.setup.world;
 
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import net.minecraft.data.worldgen.Features;
@@ -8,7 +8,6 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.BiomeGenerationSettings;
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.levelgen.GenerationStep;
-import com.bfr.robots.world.*;
 
 // This class works with BFRBiomeLoadingEvent to actually add the ore feature to the world. (Jaiden)
 public class BFRFeatures {

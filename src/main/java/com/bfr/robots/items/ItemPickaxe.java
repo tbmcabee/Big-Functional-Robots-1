@@ -31,9 +31,6 @@ public class ItemPickaxe extends PickaxeItem {
         this.efficiency = toolTier.getSpeed();
     }
 
-    public static final RegistryObject<Item> NOVA_CRYSTAL_PICKAXE = Registration.ITEMS.register("nova_crystal_pickaxe",
-            () -> new ItemPickaxe(ToolTier.NOVA_CRYSTAL, 1, -2.8F, (new Item.Properties())));
-
     @Override
     public void appendHoverText(ItemStack stack, Level worldIn, List<Component> tooltip, TooltipFlag flagIn){
         super.appendHoverText(stack, worldIn, tooltip, flagIn);
@@ -59,7 +56,5 @@ public class ItemPickaxe extends PickaxeItem {
     public Item asItem() {
         return this;
     }
-
-    public static void register() {}
 
 }

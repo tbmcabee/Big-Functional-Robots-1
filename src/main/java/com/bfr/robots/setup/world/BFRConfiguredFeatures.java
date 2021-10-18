@@ -1,4 +1,4 @@
-package com.bfr.robots.world;
+package com.bfr.robots.setup.world;
 
 import net.minecraft.core.Registry;
 import net.minecraft.data.BuiltinRegistries;
@@ -22,8 +22,8 @@ import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlac
 import net.minecraft.world.level.levelgen.placement.FeatureDecorator;
 import net.minecraft.world.level.levelgen.placement.FrequencyWithExtraChanceDecoratorConfiguration;
 import com.bfr.robots.setup.Registration;
-import com.bfr.robots.blocks.BlockOre;
-import com.bfr.robots.robot.*;
+import com.bfr.robots.setup.blocks.BFRBlocks;
+import com.bfr.robots.Robots;
 
 // Anything that needs to be generated in the world will be put in this class (Jaiden)
 public class BFRConfiguredFeatures 
@@ -42,6 +42,6 @@ public class BFRConfiguredFeatures
     //  Not positive what this class is for, but I'm assuming it just gets the defaultBlockState to load into the world (Jaiden)
     private static class BlockStates
     {
-    	public static final BlockState ORE_BLOCK = BlockOre.ORE_BLOCK.get().defaultBlockState();
+    	public static final BlockState ORE_BLOCK = BFRBlocks.ORE_BLOCK.get().defaultBlockState();
     }
 }

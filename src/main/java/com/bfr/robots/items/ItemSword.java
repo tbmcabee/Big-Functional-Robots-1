@@ -22,9 +22,6 @@ public class ItemSword extends SwordItem {
         this.maxUses = toolTier.getUses();
     }
 
-    public static final RegistryObject<Item> NOVA_CRYSTAL_SWORD = Registration.ITEMS.register("nova_crystal_sword",
-            () -> new ItemSword(ToolTier.NOVA_CRYSTAL, 3, -2.4F, (new Item.Properties())));
-
     @Override
     public void appendHoverText(ItemStack stack, Level worldIn, List<Component> tooltip, TooltipFlag flagIn){
         super.appendHoverText(stack, worldIn, tooltip, flagIn);
@@ -45,7 +42,5 @@ public class ItemSword extends SwordItem {
     public Item asItem() {
         return this;
     }
-
-    public static void register() {}
 
 }

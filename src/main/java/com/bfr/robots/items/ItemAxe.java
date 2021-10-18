@@ -26,9 +26,6 @@ public class ItemAxe extends AxeItem {
         this.efficiency = toolTier.getSpeed();
     }
 
-    public static final RegistryObject<Item> NOVA_CRYSTAL_AXE = Registration.ITEMS.register("nova_crystal_axe",
-            () -> new ItemAxe(ToolTier.NOVA_CRYSTAL, 6.0F, -3.2F, (new Item.Properties())));
-
     @Override
     public void appendHoverText(ItemStack stack, Level worldIn, List<Component> tooltip, TooltipFlag flagIn){
         super.appendHoverText(stack, worldIn, tooltip, flagIn);
@@ -41,7 +38,5 @@ public class ItemAxe extends AxeItem {
     public Item asItem() {
         return this;
     }
-
-    public static void register() {}
 
 }

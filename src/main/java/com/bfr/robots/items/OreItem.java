@@ -15,11 +15,4 @@ public class OreItem extends Item
 		super(properties);
 	}
 	
-	//This statement creates the RegistryObject reference for the Ore Ingot utilizing Registration.ITEMS.register method in order
-	//to create the Ore Ingot utilizing Minecraft's preset ITEM Group class (Tallon)
-	public static final RegistryObject<Item> ORE_INGOT = Registration.ITEMS.register("ore_ingot", () ->
-		new OreItem(new Item.Properties()));
-	
-	//This method will be utilized to register the OreItem's ORE_INGOT asset into the Registration Class's event bus (Tallon)
-	public static void register() {}
 }

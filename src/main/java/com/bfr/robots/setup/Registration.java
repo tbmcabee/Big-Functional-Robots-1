@@ -1,9 +1,11 @@
 package com.bfr.robots.setup;
 
-import com.bfr.robots.blocks.BlockOre;
 import com.bfr.robots.items.*;
-import com.bfr.robots.robot.Robots;
+import com.bfr.robots.Robots;
+import com.bfr.robots.setup.blocks.BFRBlocks;
+import com.bfr.robots.setup.items.BFRItems;
 
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,6 +24,8 @@ public class Registration
 	//to act as a super() statement when creating new BLOCKS assets such as the ore block (Tallon)
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Robots.MOD_ID);
 	
+	//public static DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES, Robots.MOD_ID);
+	
 	public static void register()
 	{
 		//This statement creates an IEventBus object which will be utilized to record registered mod items (Tallon)
@@ -32,19 +36,10 @@ public class Registration
 		ITEMS.register(modEventBus);
 		BLOCKS.register(modEventBus);
 		
-		//OreItem register refers back to the Ore Item class and registers the information within that class (Tallon)
-		//This handles the Ore Ingot's Item asset. 
-		OreItem.register();
-		ItemArmor.register();
-		ItemAxe.register();
-		ItemHoe.register();
-		ItemPickaxe.register();
-		ItemShovel.register();
-		ItemSword.register();
-		
-		//BlockOre register refers back to the Ore Item class and registers the information within that class (Tallon)
-		//This handles the Ore Block's Block and BlockItem assets
-		BlockOre.register();
+		BFRItems.register();
+		BFRBlocks.register();
+		//BFREntityTypes.register();
+	
 	}
 	
 }

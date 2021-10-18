@@ -24,9 +24,6 @@ public class ItemShovel extends ShovelItem {
         this.efficiency = toolTier.getSpeed();
     }
 
-    public static final RegistryObject<Item> NOVA_CRYSTAL_SHOVEL = Registration.ITEMS.register("nova_crystal_shovel",
-            () -> new ItemShovel(ToolTier.NOVA_CRYSTAL, 1.5F, -3.0F, (new Item.Properties())));
-
     @Override
     public void appendHoverText(ItemStack stack, Level worldIn, List<Component> tooltip, TooltipFlag flagIn){
         super.appendHoverText(stack, worldIn, tooltip, flagIn);
@@ -39,7 +36,5 @@ public class ItemShovel extends ShovelItem {
     public Item asItem() {
         return this;
     }
-
-    public static void register() {}
 
 }
