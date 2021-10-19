@@ -7,6 +7,7 @@ import net.minecraftforge.fmllegacy.RegistryObject;
 
 import com.bfr.robots.Robots;
 import com.bfr.robots.items.ArmorTier;
+import com.bfr.robots.items.ConfigItem;
 import com.bfr.robots.items.ItemArmor;
 import com.bfr.robots.items.ItemAxe;
 import com.bfr.robots.items.ItemHoe;
@@ -52,6 +53,9 @@ public class BFRItems {
     public static final RegistryObject<Item> NOVA_CRYSTAL_SWORD = Registration.ITEMS.register("nova_crystal_sword",
             () -> new ItemSword(ToolTier.NOVA_CRYSTAL, 3, -2.4F, (new Item.Properties())));
 	
+    public static final RegistryObject<Item> CONFIG_ITEM = Registration.ITEMS.register("config_item", () ->
+		new ConfigItem(new Item.Properties()));
+    
 	public static void register() {}
 	
 }

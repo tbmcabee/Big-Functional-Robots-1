@@ -12,5 +12,7 @@
 	"item.robots.nova_crystal_helmet": "Nova Crystal Helmet", 
 	"item.robots.nova_crystal_leggings": "Nova Crystal Leggings",
 
-	"block.robots.ore_block": "Nova Ore Block"
+	"block.robots.ore_block": "Nova Ore Block",
+	
+	"item.robots.config_item": "Configurator"
 }
