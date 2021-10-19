@@ -8,4 +8,8 @@ Ore Block (Placeable, mineable and drops Ore Ingot Item)
 
 Ore World Generation
 
-Version 0.1.0 (Pre-Alpha)
+Armor and Toolset (Current bug where equipping armor crashes the game)
+
+Currently attempting to implement robot
+
+Version 0.5.0 (Pre-Alpha)
