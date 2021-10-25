@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+  
+    "pattern":
+    [
+      "###",
+      "# #",
+      "# #"
+    ],
+  
+  
+    "key":
+    {
+      "#":
+      {
+        "item": "robots:ore_ingot"
+      }
+    },
+  
+    "result":
+    {
+      "item":  "robots:nova_crystal_leggings",
+      "count": 1
+    }
+  }

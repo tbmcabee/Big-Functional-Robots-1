@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+  
+    "pattern":
+    [
+      " # ",
+      " # ",
+      " / "
+    ],
+  
+  
+    "key":
+    {
+      "/":
+      {
+        "item": "minecraft:stick"
+      },
+      "#":
+      {
+        "item": "robots:ore_ingot"
+      }
+    },
+  
+    "result":
+    {
+      "item":  "robots:nova_crystal_sword",
+      "count": 1
+    }
+  }
