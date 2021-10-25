@@ -14,6 +14,7 @@ import com.bfr.robots.items.ItemHoe;
 import com.bfr.robots.items.ItemPickaxe;
 import com.bfr.robots.items.ItemShovel;
 import com.bfr.robots.items.ItemSword;
+import com.bfr.robots.items.ModuleItems;
 import com.bfr.robots.items.OreItem;
 import com.bfr.robots.items.ToolTier;
 import com.bfr.robots.setup.Registration;
@@ -53,8 +54,35 @@ public class BFRItems {
     public static final RegistryObject<Item> NOVA_CRYSTAL_SWORD = Registration.ITEMS.register("nova_crystal_sword",
             () -> new ItemSword(ToolTier.NOVA_CRYSTAL, 3, -2.4F, (new Item.Properties())));
 	
-    public static final RegistryObject<Item> CONFIG_ITEM = Registration.ITEMS.register("config_item", () ->
-		new ConfigItem(new Item.Properties()));
+    public static final RegistryObject<Item> CONFIG_ITEM = Registration.ITEMS.register("config_item", 
+    		() -> new ConfigItem(new Item.Properties()));
+    
+    public static final RegistryObject<Item> MINE_COOPER = Registration.ITEMS.register("mine_cooper", () ->
+		new ModuleItems(new Item.Properties()));
+    
+    public static final RegistryObject<Item> MINE_GOLD = Registration.ITEMS.register("mine_gold", () ->
+		new ModuleItems(new Item.Properties()));
+    
+    public static final RegistryObject<Item> MINE_DIAMOND = Registration.ITEMS.register("mine_diamond", () ->
+		new ModuleItems(new Item.Properties()));
+    
+    public static final RegistryObject<Item> COMBAT_COOPER = Registration.ITEMS.register("combat_cooper", () ->
+		new ModuleItems(new Item.Properties()));
+    
+    public static final RegistryObject<Item> COMBAT_GOLD = Registration.ITEMS.register("combat_gold", () ->
+		new ModuleItems(new Item.Properties()));
+    
+    public static final RegistryObject<Item> COMBAT_DIAMOND = Registration.ITEMS.register("combat_diamond", () ->
+		new ModuleItems(new Item.Properties()));
+    
+    public static final RegistryObject<Item> TRAVEL_COOPER = Registration.ITEMS.register("travel_cooper", () ->
+		new ModuleItems(new Item.Properties()));
+    
+    public static final RegistryObject<Item> TRAVEL_GOLD = Registration.ITEMS.register("travel_gold", () ->
+		new ModuleItems(new Item.Properties()));
+    
+    public static final RegistryObject<Item> TRAVEL_DIAMOND = Registration.ITEMS.register("travel_diamond", () ->
+		new ModuleItems(new Item.Properties()));
     
 	public static void register() {}
 	

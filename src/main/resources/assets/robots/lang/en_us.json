@@ -14,5 +14,17 @@
 
 	"block.robots.ore_block": "Nova Ore Block",
 	
-	"item.robots.config_item": "Configurator"
+	"item.robots.config_item": "Configurator",
+	
+	"item.robots.mine_copper": "Copper Mining Module",
+	"item.robots.mine_gold": "Gold Mining Module",
+	"item.robots.mine_diamond": "Diamond Mining Module",
+	
+	"item.robots.combat_copper": "Copper Combat Module",
+	"item.robots.combat_gold": "Gold Combat Module",
+	"item.robots.combat_diamond": "Diamond Combat Module",
+	
+	"item.robots.travel_copper": "Copper Travel Module",
+	"item.robots.travel_gold": "Gold Travel Module",
+	"item.robots.travel_diamond": "Diamond Travel Module"
 }

@@ -1,7 +1,14 @@
 package com.bfr.robots.items;
 
-public class ModuleItems 
+import net.minecraft.world.item.Item;
+
+public class ModuleItems extends Item
 {
+
+	public ModuleItems(Properties properties) 
+	{
+		super(properties);
+	}
 	
 
 }
