@@ -3,6 +3,7 @@ package com.bfr.robots.setup;
 import com.bfr.robots.items.*;
 import com.bfr.robots.Robots;
 import com.bfr.robots.setup.blocks.BFRBlocks;
+import com.bfr.robots.setup.entity.BFREntityTypes;
 import com.bfr.robots.setup.items.BFRItems;
 
 import net.minecraft.world.entity.EntityType;
@@ -24,7 +25,7 @@ public class Registration
 	//to act as a super() statement when creating new BLOCKS assets such as the ore block (Tallon)
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Robots.MOD_ID);
 	
-	//public static DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES, Robots.MOD_ID);
+	public static DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES, Robots.MOD_ID);
 	
 	public static void register()
 	{
@@ -38,7 +39,7 @@ public class Registration
 		
 		BFRItems.register();
 		BFRBlocks.register();
-		//BFREntityTypes.register();
+		BFREntityTypes.register();
 	
 	}
 	

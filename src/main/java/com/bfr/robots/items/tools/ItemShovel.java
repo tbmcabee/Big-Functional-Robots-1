@@ -1,25 +1,23 @@
-package com.bfr.robots.items;
+package com.bfr.robots.items.tools;
 
-import com.bfr.robots.items.ToolTier;
+import com.bfr.robots.items.tools.ToolTier;
 import com.bfr.robots.setup.Registration;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.AxeItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.fmllegacy.RegistryObject;
 
 import java.util.List;
 
-public class ItemAxe extends AxeItem {
+public class ItemShovel extends ShovelItem {
     private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
 
-    public ItemAxe(ToolTier toolTier, float attackDamage, float attackSpeed, Properties itemProperties) {
+
+    public ItemShovel(ToolTier toolTier, float attackDamage, float attackSpeed, Item.Properties itemProperties) {
         super(toolTier, (int)attackDamage, (int)attackSpeed, itemProperties);
         this.harvestLevel = toolTier.getLevel();
         this.maxUses = toolTier.getUses();

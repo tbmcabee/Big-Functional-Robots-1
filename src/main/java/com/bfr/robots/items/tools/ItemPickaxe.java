@@ -1,6 +1,6 @@
-package com.bfr.robots.items;
+package com.bfr.robots.items.tools;
 
-import com.bfr.robots.items.ToolTier;
+import com.bfr.robots.items.tools.ToolTier;
 import com.bfr.robots.setup.Registration;
 
 import net.minecraft.ChatFormatting;

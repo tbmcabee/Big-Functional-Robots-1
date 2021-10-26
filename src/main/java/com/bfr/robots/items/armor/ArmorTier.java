@@ -1,4 +1,4 @@
-package com.bfr.robots.items;
+package com.bfr.robots.items.armor;
 
 import com.bfr.robots.Robots;
 import com.bfr.robots.setup.items.BFRItems;

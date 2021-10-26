@@ -6,15 +6,15 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fmllegacy.RegistryObject;
 
 import com.bfr.robots.Robots;
-import com.bfr.robots.items.ArmorTier;
-import com.bfr.robots.items.ItemArmor;
-import com.bfr.robots.items.ItemAxe;
-import com.bfr.robots.items.ItemHoe;
-import com.bfr.robots.items.ItemPickaxe;
-import com.bfr.robots.items.ItemShovel;
-import com.bfr.robots.items.ItemSword;
 import com.bfr.robots.items.OreItem;
-import com.bfr.robots.items.ToolTier;
+import com.bfr.robots.items.armor.ArmorTier;
+import com.bfr.robots.items.armor.ItemArmor;
+import com.bfr.robots.items.tools.ItemAxe;
+import com.bfr.robots.items.tools.ItemHoe;
+import com.bfr.robots.items.tools.ItemPickaxe;
+import com.bfr.robots.items.tools.ItemShovel;
+import com.bfr.robots.items.tools.ItemSword;
+import com.bfr.robots.items.tools.ToolTier;
 import com.bfr.robots.setup.Registration;
 
 @Mod.EventBusSubscriber(modid = Robots.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)

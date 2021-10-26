@@ -13,4 +13,7 @@
 	"item.robots.nova_crystal_leggings": "Nova Crystal Leggings",
 
 	"block.robots.ore_block": "Nova Ore Block"
+	
+	"entity.robots.robot": "Robot"
+	
 }

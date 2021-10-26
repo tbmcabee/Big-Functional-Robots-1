@@ -1,6 +1,6 @@
-package com.bfr.robots.items;
+package com.bfr.robots.items.armor;
 
-import com.bfr.robots.items.ArmorTier;
+import com.bfr.robots.items.armor.ArmorTier;
 import com.bfr.robots.setup.Registration;
 
 import net.minecraft.world.effect.MobEffectInstance;
