@@ -19,6 +19,7 @@ import com.bfr.robots.items.OreItem;
 import com.bfr.robots.items.ToolTier;
 import com.bfr.robots.setup.Registration;
 
+//Test comment
 @Mod.EventBusSubscriber(modid = Robots.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BFRItems {
 	
