@@ -24,10 +24,9 @@ import net.minecraft.world.level.block.state.BlockState;
 public class RobotEntity extends Animal
 {
 
-	public RobotEntity(EntityType<? extends Animal> p_27557_, Level p_27558_) 
+	public RobotEntity(EntityType<? extends Animal> entity, Level world) 
 	{
-		super(p_27557_, p_27558_);
-		// TODO Auto-generated constructor stub
+		super(entity, world);
 	}
 	
 	public static AttributeSupplier.Builder setCustomAttributes()
@@ -41,7 +40,7 @@ public class RobotEntity extends Animal
 	protected void registerGoals()
 	{
 		super.registerGoals();
-		this.goalSelector.addGoal(0, new LookAtPlayerGoal(this, Player.class, 2.0F));
+		this.goalSelector.addGoal(0, new LookAtPlayerGoal(this, Player.class, 8.0F));
 	}
 	
 	@SuppressWarnings("resource")
@@ -81,7 +80,7 @@ public class RobotEntity extends Animal
 	@Override
 	public AgeableMob getBreedOffspring(ServerLevel level, AgeableMob mob)
 	{
-		return BFREntityTypes.ROBOT.get().create(level);
+		return BFREntityTypes.ROBOT.get().create(this.level);
 	}
 	
 }

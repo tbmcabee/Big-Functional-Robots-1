@@ -6,6 +6,8 @@ import com.bfr.robots.setup.blocks.BFRBlocks;
 import com.bfr.robots.setup.entity.BFREntityTypes;
 import com.bfr.robots.setup.items.BFRItems;
 
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
@@ -25,7 +27,7 @@ public class Registration
 	//to act as a super() statement when creating new BLOCKS assets such as the ore block (Tallon)
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Robots.MOD_ID);
 	
-	public static DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES, Robots.MOD_ID);
+	public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES, Robots.MOD_ID);
 	
 	public static void register()
 	{
@@ -36,6 +38,7 @@ public class Registration
 		//group properties when registering new assets such as the Ore Ingot item and Ore Block. (Tallon)
 		ITEMS.register(modEventBus);
 		BLOCKS.register(modEventBus);
+		ENTITY_TYPES.register(modEventBus);
 		
 		BFRItems.register();
 		BFRBlocks.register();

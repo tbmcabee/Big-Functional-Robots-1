@@ -42,6 +42,7 @@ public class Robots
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+        IEventBus forgeEventBus = MinecraftForge.EVENT_BUS;
     }
 
     private void setup(final FMLCommonSetupEvent event)
