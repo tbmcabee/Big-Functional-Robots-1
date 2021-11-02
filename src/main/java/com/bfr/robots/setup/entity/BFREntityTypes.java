@@ -20,7 +20,7 @@ public class BFREntityTypes
 {
 	
 	public static final RegistryObject<EntityType<RobotEntity>> ROBOT = Registration.ENTITY_TYPES.register("robot", 
-			() -> EntityType.Builder.of(RobotEntity::new, MobCategory.CREATURE).sized(2.0f, 6.0f)
+			() -> EntityType.Builder.of(RobotEntity::new, MobCategory.CREATURE).sized(.5f, 1.0f)
 			.build(new ResourceLocation(Robots.MOD_ID, "robot").toString()));
 	
 	@SubscribeEvent

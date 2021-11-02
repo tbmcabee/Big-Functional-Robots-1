@@ -1,30 +1,29 @@
 package com.bfr.robots.entity;
 
+import java.util.UUID;
+
 import javax.annotation.Nullable;
 
-import com.bfr.robots.setup.entity.BFREntityTypes;
-
 import net.minecraft.core.BlockPos;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.NeutralMob;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-
 import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
-import net.minecraft.world.entity.animal.Animal;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
+import net.minecraft.world.entity.animal.AbstractGolem;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class RobotEntity extends Animal
+public class RobotEntity extends AbstractGolem implements NeutralMob
 {
 
-	public RobotEntity(EntityType<? extends Animal> entity, Level world) 
+	public RobotEntity(EntityType<? extends AbstractGolem> entity, Level world) 
 	{
 		super(entity, world);
 	}
@@ -40,7 +39,8 @@ public class RobotEntity extends Animal
 	protected void registerGoals()
 	{
 		super.registerGoals();
-		this.goalSelector.addGoal(0, new LookAtPlayerGoal(this, Player.class, 8.0F));
+		this.goalSelector.addGoal(0, new RandomStrollGoal(this, 1.0D));
+		this.goalSelector.addGoal(1, new LookAtPlayerGoal(this, Player.class, 8.0F));
 	}
 	
 	@SuppressWarnings("resource")
@@ -75,12 +75,35 @@ public class RobotEntity extends Animal
 	{
 		this.playSound(SoundEvents.IRON_GOLEM_STEP, .15F, 1.0F);;
 	}
-	
-	@Nullable
+
 	@Override
-	public AgeableMob getBreedOffspring(ServerLevel level, AgeableMob mob)
-	{
-		return BFREntityTypes.ROBOT.get().create(this.level);
+	public int getRemainingPersistentAngerTime() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setRemainingPersistentAngerTime(int p_21673_) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public UUID getPersistentAngerTarget() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setPersistentAngerTarget(UUID p_21672_) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void startPersistentAngerTimer() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }

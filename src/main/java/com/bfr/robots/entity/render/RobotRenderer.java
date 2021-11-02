@@ -13,7 +13,7 @@ public class RobotRenderer extends MobRenderer<RobotEntity, RobotModel<RobotEnti
 	private static final ResourceLocation ROBOT_LOCATION = new ResourceLocation("robots:textures/entity/robot/robot_texture.png");
 	
 	public RobotRenderer(EntityRendererProvider.Context renderer) {
-		super(renderer, new RobotModel<>(renderer.bakeLayer(BFRModelLayers.ROBOT_LAYER)), 0.7F);
+		super(renderer, new RobotModel<>(renderer.bakeLayer(BFRModelLayers.ROBOT_LAYER)), 0.35F);
 	}
 
 	@Override
