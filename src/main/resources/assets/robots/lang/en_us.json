@@ -12,6 +12,7 @@
 	"item.robots.nova_crystal_helmet": "Nova Crystal Helmet", 
 	"item.robots.nova_crystal_leggings": "Nova Crystal Leggings",
 
+<<<<<<< HEAD
 	"block.robots.ore_block": "Nova Ore Block",
 	
 	"item.robots.config_item": "Configurator",
@@ -27,4 +28,10 @@
 	"item.robots.travel_copper": "Copper Travel Module",
 	"item.robots.travel_gold": "Gold Travel Module",
 	"item.robots.travel_diamond": "Diamond Travel Module"
+=======
+	"block.robots.ore_block": "Nova Ore Block"
+	
+	"entity.robots.robot": "Robot"
+	
+>>>>>>> refs/heads/master
 }
