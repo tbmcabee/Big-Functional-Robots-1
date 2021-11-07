@@ -20,7 +20,8 @@ import net.minecraftforge.items.wrapper.PlayerMainInvWrapper;
 
 public class ConfigMainMenu extends AbstractContainerMenu
 {
-	private final MenuCallbacks callbacks;
+	public RobotEntity robotEntity;
+	public Player playerEntity;
 	
 	//Robot entity is just a placeholder until we figure out what class we need to use with the robot itself
 	public ConfigMainMenu(final int windowID, final Inventory playerInv, final RobotEntity robotEntity) 
@@ -28,14 +29,9 @@ public class ConfigMainMenu extends AbstractContainerMenu
 		super(GUIMenuTypes.CONFIG_GUI.get(), windowID);
 		// TODO Auto-generated constructor stub
 		
-		callbacks = robotEntity;
-		callbacks.onMenuOpened(playerInv.player);
-		
-		final IItemHandler playerInventoryItemHandler = new PlayerMainInvWrapper(playerInv);
-		final IItemHandler robotInventory = robotEntity.getInventory();
-		
-		//x = 105, y = 108
-		addSlot(new SlotItemHandler(playerInventoryItemHandler, 105, 108, 0));
+		super(GUIMenuTypes.REGION_BLOCK.get(), windowId);
+		 blockEntity = world.getBlockEntity(pos);
+		 playerEntity = player;
 		
 	}
 
