@@ -9,3 +9,6 @@ Ore Block (Placeable, mineable and drops Ore Ingot Item)
 Ore World Generation
 
 Version 0.1.0 (Pre-Alpha)
+
+Live Demo:
+https://www.youtube.com/watch?v=hhUlxIuly1c
